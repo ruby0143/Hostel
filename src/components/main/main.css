@@ -1,0 +1,61 @@
+.main{
+    width: 55%;
+    margin: auto;
+    margin-top: 7%;
+    color: white;
+    padding: 25px;
+    background-color: #2a2b38;
+    background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/1462889/pat.svg');
+    border-radius: 2%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+.main h3{
+    text-align: center;
+}
+
+.inp{
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+}
+
+.lms{
+    margin-left: 10%;
+}
+.main fieldset{
+    margin-left: 15%;
+}
+.main input[type="radio"]{
+    margin-left: 50px;
+}
+
+.no{
+    margin-left: 40%;
+}
+
+@media screen and (max-width : 700px) {
+    .main{
+        width: 80%;
+    }
+    .main input[type="radio"]{
+        margin-left: 10px;
+    }
+    .no{
+        margin-left: 30%;
+    }
+}
+
+@media screen and (min-width : 700px) and ( max-width : 900px ) {
+    .main{
+        width: 80%;
+    }
+    .main input[type="radio"]{
+        margin-left: 60px;
+    }
+    .no{
+        margin-left: 30%;
+    }
+}

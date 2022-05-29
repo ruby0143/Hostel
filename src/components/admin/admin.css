@@ -1,0 +1,30 @@
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center
+}
+
+
+.logout{
+    margin: 5%;
+    padding: 20px;
+}
+
+@media screen and (max-width : 600px) {
+    .l{
+        margin-left: 25%;
+    }
+}
+
+@media screen and (min-width : 601px) and (max-width:900px) {
+    .l{
+        margin-left: 35%;
+    }
+}
+
+@media screen and (min-width : 901px) {
+    .l{
+        margin-left: 42%;
+    }
+}

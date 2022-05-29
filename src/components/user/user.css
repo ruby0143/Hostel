@@ -1,0 +1,50 @@
+.user{
+    margin: 5px;
+}
+.wd{
+    width: 90%;
+    margin: auto;
+}
+
+.fm{
+    display: flex;
+    flex-direction: row;
+}
+
+.bn{
+    margin-left: 120px;
+}
+
+.lm{
+    /* border-left: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.lms{
+    /* border-left: 1px solid black; */
+    width: 80%;
+}
+
+.head{
+    margin: 30px;
+    text-align: center;
+}
+
+@media screen and (max-width : 900px) {
+    .wd{
+        width: 95%;
+    }
+    .bn{
+        margin-left: 0px;
+    }
+}
+
+@media screen and (min-width : 900px) {
+
+    .bn{
+        margin-left: 50px;
+    }
+}
